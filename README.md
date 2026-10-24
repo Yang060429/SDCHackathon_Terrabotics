@@ -104,6 +104,7 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 │   ├── tsconfig.base.json
 │   └── tsconfig.json
 ├── submission/              # Required submission documents
+│   ├── SDC2026_Terrabotics_PitchingSlides.pdf
 │   ├── SDC2026_TerraBotics_Preliminary.pdf      # Preliminary submission
 │   ├── SDC2026_TerraBotics_TechDeclaration.pdf  # Technology declaration
 │   ├── SDC2026_TerraBotics_Replit_POU.pdf       # Replit proof of use
