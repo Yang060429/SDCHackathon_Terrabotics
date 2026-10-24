@@ -63,13 +63,44 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 ├── runpod/
 │   └── handler.py           # RunPod serverless handler (GPU workload)
 ├── src/
-│   ├── main.py              # Application entry point
-│   └── utils.py             # Helper functions
+│   ├── ml              # Application entry point
+│       ├── __pycache__
+│          └── trained_adapter.cpython-313.pyc
+│       ├── original
+│          ├── Try.py
+│          ├── baseline.py
+│          ├── check_gpu.py
+│          ├── config.py
+│          ├── data_utils.py
+│          ├── deep_model.py
+│          ├── evaluate.py
+│          ├── train.py
+│          ├── tree_model.py
+│          └── windows.py
+│       ├── requirements-trained.txt
+│       └── trained_adapter.py
+│   ├── scripts
+│       ├── node_modules
+│       ├── src
+│          └── hello.ts
+│       ├── package.json
+│       ├── post-merge.sh
+│       ├── tsconfig.json
+│       └── tsconfig.tsbuildinfo
+│   ├── .npmrc
+│   ├── .replitignore
+│   ├── ml_service.py
+│   ├── package.json
+│   ├── pnpm-lock.yaml
+│   ├── pnpm-workspace.yaml
+│   ├── replit.md
+│   ├── tsconfig.base.json
+│   └── tsconfig.json
 ├── submission/              # Required submission documents
-│   ├── SDC2026_TeamName_Preliminary.pdf      # Preliminary submission
-│   ├── SDC2026_TeamName_TechDeclaration.pdf  # Technology declaration
-│   ├── SDC2026_TeamName_Replit_POU.pdf       # Replit proof of use
-│   └── SDC2026_TeamName_Runpod_POU.pdf       # RunPod proof of use
+│   ├── SDC2026_TerraBotics_Preliminary.pdf      # Preliminary submission
+│   ├── SDC2026_TerraBotics_TechDeclaration.pdf  # Technology declaration
+│   ├── SDC2026_TerraBotics_Replit_POU.pdf       # Replit proof of use
+│   └── SDC2026_TerraBotics_Runpod_POU.pdf       # RunPod proof of use
 ├── tests/
 │   └── test_utils.py        # Unit tests
 ├── .env.example             # Example environment variables
