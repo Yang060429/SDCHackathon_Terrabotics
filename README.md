@@ -195,7 +195,7 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 | Kor Yu Shao | Frontend / Backend            | [@kys0629](https://github.com/kys0629) |
 | Lim Shang Yang | Frontend / Backend         | [@Yang040629](https://github.com/Yang040629) |
 | Adam Largui | Frontend / Backend         | [@El-Mascot](https://github.com/El-Mascot) |
-| Liu Hong Ming | Model Training / AI / RunPod         | [@username](https://github.com/username) |
+| Liu Hong Ming | Model Training / AI / RunPod         | [@lcooopa](https://github.com/lcooopa) |
 
 ---
 
