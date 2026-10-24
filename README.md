@@ -55,7 +55,7 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 
 ---
 
-## Project Structure 还没有！！！！！！！！！！！！
+## Project Structure
 
 ```
 .
@@ -80,7 +80,7 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 └── README.md
 ```
 
-### Architecture 还没有！！！！！！！！！
+### Architecture
 
 ```
 [Offline Training Phase]
@@ -96,7 +96,7 @@ User ---> Replit (Frontend App / API) ---> Local Model Inference (Replit Backend
 
 ## How to Run
 
-### Option 1 — Run on Replit (Recommended)
+### Option 1 — Run on Replit
 
 1. Open the [Replit Project](https://replit.com/@your-username/your-project), or import this repository via **Create Repl → Import from GitHub**.
 2. Open the **Secrets** tab (🔒) and add the variables listed in `.env.example`:
@@ -133,7 +133,7 @@ python -m unittest discover tests
 
 ---
 
-## How We Use Replit *(Required)*
+## How We Use Replit
 
 - **Development:** We utilized Replit as our primary cloud IDE, heavily leveraging the Replit Agent to rapidly prototype our full-stack application (frontend UI and backend integration).
 - **Hosting:** The entire application is hosted live directly within the Replit environment, providing a seamless platform for running both our web interface and the Python-based model inference service.
@@ -141,7 +141,7 @@ python -m unittest discover tests
 
 📄 Proof of use: [`submission/SDC2026_TerraBotics_Replit_POU.pdf`](submission/SDC2026_TerraBotics_Replit_POU.pdf)
 
-## How We Use RunPod *(Required)*
+## How We Use RunPod
 
 - **Workload:** We utilized RunPod's high-performance GPU instances to train and fine-tune our PyTorch ensemble models for demand forecasting.
 - **Setup:** A standard **RunPod GPU Pod** was deployed with a PyTorch environment to handle intensive data processing and model training workflows.
