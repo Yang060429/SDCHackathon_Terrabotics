@@ -60,6 +60,13 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 ```
 .
 ├── docs/                    # Screenshots, diagrams
+│   ├── Screenshots
+│          ├── Forecasting.png
+│          ├── History.png
+│          ├── InventoryManage.png
+│          ├── InventoryView.png
+│          ├── Overview.png
+│          └── Resupply.png
 ├── runpod/
 │   └── handler.py           # RunPod serverless handler (GPU workload)
 ├── src/
