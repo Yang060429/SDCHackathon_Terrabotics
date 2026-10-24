@@ -77,7 +77,8 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 ├── .replit                  # Replit run configuration
 ├── LICENSE
 ├── requirements.txt         # Python dependencies
-└── README.md
+├── README.md
+└──requirements.txt
 ```
 
 ### Architecture
