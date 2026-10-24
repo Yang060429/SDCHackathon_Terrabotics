@@ -139,11 +139,9 @@ python -m unittest discover tests
 
 ## How We Use Replit *(Required)*
 
-Describe how your team used Replit. For example:
-
-- **Development:** Collaborative coding in a shared Repl using Multiplayer.
-- **Hosting:** The app is deployed with Replit Deployments at the Live Demo link above.
-- **Secrets:** API keys are stored in Replit Secrets, never in the code.
+- **Development:** We utilized Replit as our primary cloud IDE, heavily leveraging the Replit Agent to rapidly prototype our full-stack application (frontend UI and backend integration).
+- **Hosting:** The entire application is hosted live directly within the Replit environment, providing a seamless platform for running both our web interface and the Python-based model inference service.
+- **Integration & Version Control:** We used Replit's built-in Git tools to seamlessly manage our codebase and push source code directly to our GitHub repository without manual file handling.
 
 📄 Proof of use: [`submission/SDC2026_TerraBotics_Replit_POU.pdf`](submission/SDC2026_TerraBotics_Replit_POU.pdf)
 
@@ -169,35 +167,42 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 ## Challenges & Learnings
 
 - What challenges did you face, and how did you overcome them?
+  The primary limitation is the 'cold start' problem: because the model highly relies on historical transaction data, predictions are less accurate for newly launched products with zero sales history or sudden, viral demand spikes not captured in our dataset. To mitigate these risks, we implemented a safety line function to relieve stress if a sudden demand strike happens, alongside a 'Manual Purchase' override. This human-in-the-loop approach ensures merchants always retain final decision-making authority to restock based on their own market intuition, minimizing the risk of AI-driven overstocking or stockouts.
+
 - What did your team learn?
+  We learned how to seamlessly integrate RunPod GPU model training with a Replit full-stack web application to build an end-to-end AI product. We also mastered managing large AI project repositories on GitHub by correctly filtering heavy dependencies and model weights. Finally, we learned to handle real-world business challenges like "cold starts" by incorporating uncertainty visualizations and human-in-the-loop interventions into our UI.
 
 ## Future Improvements
 
 - [ ] Improvement 1
+      The recorded time duration for the history was too short. The prediction model will be able to run better with the data of whole year.
 - [ ] Improvement 2
+      The amount of data for training is not enough, which affected the accuracy of the prediction model. A more completed dataset will been used in future for better accuracy. 
 
 ## Team
 
 | Name        | Role                | GitHub                                   |
 | ----------- | ------------------- | ---------------------------------------- |
-| Member Name | Team Lead / Backend | [@username](https://github.com/username) |
-| Member Name | Frontend            | [@username](https://github.com/username) |
-| Member Name | AI / RunPod         | [@username](https://github.com/username) |
+| Lo Yu Ao | Team Lead / Model Training / AI / RunPod | [@loyuaooo]([https://github.com/loyuaooo]) |
+| Kor Yu Shao | Frontend / Backend            | [@kys0629](https://github.com/kys0629) |
+| Lim Shang Yang | Frontend / Backend         | [@Yang040629](https://github.com/Yang040629) |
+| Adam Largui | Frontend / Backend         | [@username](https://github.com/username) |
+| Liu Hong Ming | Model Training / AI / RunPod         | [@username](https://github.com/username) |
 
 ---
 
 ## Submission Checklist
 
-- [ ] Team name, domain (Domain 1 / Domain 2) and SDG track filled in
-- [ ] Slide deck link added
-- [ ] Demo video link added
-- [ ] Replit used, with proof of use in `submission/`
-- [ ] RunPod used, with proof of use in `submission/`
-- [ ] Preliminary submission completed (`SDC2026_TeamName_Preliminary.pdf`)
-- [ ] Technology declaration completed (`SDC2026_TeamName_TechDeclaration.pdf`)
-- [ ] Submission files renamed with your team name (replace `TeamName`)
-- [ ] "How to Run" steps verified
-- [ ] No API keys or secrets committed to the repository
+- [√] Team name, domain (Domain 1 / Domain 2) and SDG track filled in
+- [√] Slide deck link added
+- [√] Demo video link added
+- [√] Replit used, with proof of use in `submission/`
+- [√] RunPod used, with proof of use in `submission/`
+- [√] Preliminary submission completed (`SDC2026_TeamName_Preliminary.pdf`)
+- [√] Technology declaration completed (`SDC2026_TeamName_TechDeclaration.pdf`)
+- [√] Submission files renamed with your team name (replace `TeamName`)
+- [√] "How to Run" steps verified
+- [√] No API keys or secrets committed to the repository
 
 ## License
 
