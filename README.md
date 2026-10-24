@@ -21,7 +21,7 @@
 | **SDG Track (1–17)**   | SDG 8: Decent Work and Economic Growth and SDG 9: Industry, Innovation and Infrastructure |
 | **Team Leader**        | Lo Yu Ao                                    |
 | **University**         | Xiamen University Malaysia                  |
-| **Number of Members**  | 4                                           |
+| **Number of Members**  | 5                                           |
 
 ## Links
 
@@ -56,7 +56,7 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 
 | Layer         | Technology                     |
 | ------------- | ------------------------------ |
-| Frontend      | TypeScript, Vite, Tailwind CSS, TanStack Query, Wouter         |
+| Frontend      | TypeScript, Vite, Tailwind CSS, TanStack Query, Wouter |
 | Backend       | TypeScript, Express 5          |
 | Database      | SQLite                         |
 | AI / Compute  | RunPod (GPU)                   |
@@ -64,7 +64,7 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 
 ---
 
-## Project Structure
+## Project Structure 还没有！！！！！！！！！！！！
 
 ```
 .
@@ -89,7 +89,7 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 └── README.md
 ```
 
-### Architecture
+### Architecture 还没有！！！！！！！！！
 
 ```
 User ──► Replit (App / API) ──► RunPod Endpoint (GPU model)
