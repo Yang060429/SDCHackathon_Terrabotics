@@ -23,7 +23,7 @@
 | Live Demo         | https://SimpanAI.replit.app                            |
 | RunPod Endpoint   | -                |
 | Slide Deck        | https://canva.link/fjh69ml643f0i59                     |
-| Demo Video        | [https://example.com/demo-video                ](https://youtu.be/Ay-Vv52MC9U)         |
+| Demo Video        | https://youtu.be/Ay-Vv52MC9U        |
 
 ---
 
