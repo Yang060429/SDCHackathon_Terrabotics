@@ -29,7 +29,7 @@
 | ----------------- | ----------------------------------------------         |
 | GitHub Repository | https://github.com/Yang060429/SDCHackathon_Terrabotics |
 | Live Demo         | https://SimpanAI.replit.app                            |
-| RunPod Endpoint   | https://api.runpod.ai/v2/x3xn0vl4i99rue                |
+| RunPod Endpoint   | -                |
 | Slide Deck        | https://example.com/slides                             |
 | Demo Video        | https://example.com/demo-video                         |
 
@@ -145,15 +145,13 @@ Describe how your team used Replit. For example:
 - **Hosting:** The app is deployed with Replit Deployments at the Live Demo link above.
 - **Secrets:** API keys are stored in Replit Secrets, never in the code.
 
-📄 Proof of use: [`submission/SDC2026_TeamName_Replit_POU.pdf`](submission/SDC2026_TeamName_Replit_POU.pdf)
+📄 Proof of use: [`submission/SDC2026_TerraBotics_Replit_POU.pdf`](submission/SDC2026_TerraBotics_Replit_POU.pdf)
 
 ## How We Use RunPod *(Required)*
 
-Describe how your team used RunPod. For example:
-
-- **Workload:** Model inference (e.g. text generation, image processing) runs on a RunPod GPU.
-- **Setup:** `runpod/handler.py` is deployed as a **RunPod Serverless Endpoint**.
-- **Integration:** The Replit app sends requests to the endpoint using `RUNPOD_API_KEY` and `RUNPOD_ENDPOINT_ID`.
+- **Workload:** We utilized RunPod's high-performance GPU instances to train and fine-tune our PyTorch ensemble models for demand forecasting.
+- **Setup:** A standard **RunPod GPU Pod** was deployed with a PyTorch environment to handle intensive data processing and model training workflows.
+- **Integration:** After training on RunPod, the finalized model weights (`.pt` files) were exported and directly integrated into our Replit backend for local inference.
 
 Example request:
 
