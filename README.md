@@ -177,8 +177,10 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 ## Future Improvements
 
 - [ ] Improvement 1
+
       The recorded time duration for the history was too short. The prediction model will be able to run better with the data of whole year.
 - [ ] Improvement 2
+
       The amount of data for training is not enough, which affected the accuracy of the prediction model. A more completed dataset will been used in future for better accuracy. 
 
 ## Team
@@ -188,7 +190,7 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 | Lo Yu Ao | Team Lead / Model Training / AI / RunPod | [@loyuaooo](https://github.com/loyuaooo) |
 | Kor Yu Shao | Frontend / Backend            | [@kys0629](https://github.com/kys0629) |
 | Lim Shang Yang | Frontend / Backend         | [@Yang040629](https://github.com/Yang040629) |
-| Adam Largui | Frontend / Backend         | [@username](https://github.com/username) |
+| Adam Largui | Frontend / Backend         | [@El-Mascot](https://github.com/El-Mascot) |
 | Liu Hong Ming | Model Training / AI / RunPod         | [@username](https://github.com/username) |
 
 ---
