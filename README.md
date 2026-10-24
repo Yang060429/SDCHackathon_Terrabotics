@@ -56,8 +56,7 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 
 | Layer         | Technology                     |
 | ------------- | ------------------------------ |
-| Frontend      | TypeScript, Vite, Tailwind CSS,|
-|               | TanStack Query, Wouter         |
+| Frontend      | TypeScript, Vite, Tailwind CSS, TanStack Query, Wouter         |
 | Backend       | TypeScript, Express 5          |
 | Database      | SQLite                         |
 | AI / Compute  | RunPod (GPU)                   |
