@@ -22,7 +22,7 @@
 | GitHub Repository | https://github.com/Yang060429/SDCHackathon_Terrabotics |
 | Live Demo         | https://SimpanAI.replit.app                            |
 | RunPod Endpoint   | -                |
-| Slide Deck        | [https://example.com/slides](https://canva.link/fjh69ml643f0i59)|
+| Slide Deck        | https://canva.link/fjh69ml643f0i59                     |
 | Demo Video        | https://example.com/demo-video                         |
 
 ---
