@@ -91,9 +91,13 @@ Built using Replit within the Orbyte ecosystem, our web application provides an 
 ### Architecture 还没有！！！！！！！！！
 
 ```
-User ──► Replit (App / API) ──► RunPod Endpoint (GPU model)
-                │
-                └──► Response returned to user
+[Offline Training Phase]
+RunPod (GPU Pod) ---> Train PyTorch Model ---> Export .pt weights ---> Load into Replit
+
+[Live Application Phase]
+User ---> Replit (Frontend App / API) ---> Local Model Inference (Replit Backend)
+          |
+          L---> Response returned to user
 ```
 
 ---
