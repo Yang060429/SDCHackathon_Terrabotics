@@ -167,9 +167,11 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 ## Challenges & Learnings
 
 - What challenges did you face, and how did you overcome them?
+
   The primary limitation is the 'cold start' problem: because the model highly relies on historical transaction data, predictions are less accurate for newly launched products with zero sales history or sudden, viral demand spikes not captured in our dataset. To mitigate these risks, we implemented a safety line function to relieve stress if a sudden demand strike happens, alongside a 'Manual Purchase' override. This human-in-the-loop approach ensures merchants always retain final decision-making authority to restock based on their own market intuition, minimizing the risk of AI-driven overstocking or stockouts.
 
 - What did your team learn?
+
   We learned how to seamlessly integrate RunPod GPU model training with a Replit full-stack web application to build an end-to-end AI product. We also mastered managing large AI project repositories on GitHub by correctly filtering heavy dependencies and model weights. Finally, we learned to handle real-world business challenges like "cold starts" by incorporating uncertainty visualizations and human-in-the-loop interventions into our UI.
 
 ## Future Improvements
