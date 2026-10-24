@@ -183,7 +183,7 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 
 | Name        | Role                | GitHub                                   |
 | ----------- | ------------------- | ---------------------------------------- |
-| Lo Yu Ao | Team Lead / Model Training / AI / RunPod | [@loyuaooo]([https://github.com/loyuaooo]) |
+| Lo Yu Ao | Team Lead / Model Training / AI / RunPod | [@loyuaooo](https://github.com/loyuaooo) |
 | Kor Yu Shao | Frontend / Backend            | [@kys0629](https://github.com/kys0629) |
 | Lim Shang Yang | Frontend / Backend         | [@Yang040629](https://github.com/Yang040629) |
 | Adam Largui | Frontend / Backend         | [@username](https://github.com/username) |
