@@ -25,14 +25,13 @@
 
 ## Links
 
-| Resource          | Link                                           |
-| ----------------- | ---------------------------------------------- |
+| Resource          | Link                                                   |
+| ----------------- | ----------------------------------------------         |
 | GitHub Repository | https://github.com/Yang060429/SDCHackathon_Terrabotics |
-| Replit Project    | https://replit.com/@loaidan0608/Simpan-AI |
-| Live Demo         | https://SimpanAI.replit.app |
-| RunPod Endpoint   | https://api.runpod.ai/v2/x3xn0vl4i99rue     |
-| Slide Deck        | https://example.com/slides                     |
-| Demo Video        | https://example.com/demo-video                 |
+| Live Demo         | https://SimpanAI.replit.app                            |
+| RunPod Endpoint   | https://api.runpod.ai/v2/x3xn0vl4i99rue                |
+| Slide Deck        | https://example.com/slides                             |
+| Demo Video        | https://example.com/demo-video                         |
 
 ---
 
